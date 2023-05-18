@@ -37,6 +37,9 @@
     height: 50px;
     left: 15px;
     top: 539px;
+    font-size: 18px;
+    font-weight: bold;
+
 
     /* emphasis */
 
@@ -260,17 +263,18 @@
     flex: 0 0 70%;
 }
 .btn-login button{
-    width:150px;
-    border-radius: 20px;
-    border: 2px solid #28a745;
-    color: #28a745;
+    width:170px;
+    border-radius: 25px;
+    border: 2px solid #FF725C;
+    background-color: #FF725C;
+    color: white;
     font-size: 18px;
     font-weight: bold;
     padding: 10px 20px;
     margin: 10px auto;
-    display: block;
-  }
-  
+    height: 50px;
+
+}
   
 .footer {
     display: flex;
@@ -311,4 +315,12 @@
     overflow: visible;
     font-size: 14px;
 }
+@media (max-width: 767.98px) {
+    .footer .row {
+      flex-wrap: wrap;
+    }
+    .footer .col-sm-12 {
+      text-align: center;
+    }
+  }
   
